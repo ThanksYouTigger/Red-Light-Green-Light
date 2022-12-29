@@ -1,0 +1,284 @@
+warn("Loadstring fetch its success")
+warn("user experience frame drops?")
+loadstring(game:HttpGet("https://pastebin.com/raw/kwTvdR9r",true))()
+--toggle
+
+local TugOfWarsShut = false
+
+--global Core
+
+_G.cooll = false
+
+-- Objects
+print("Updated!")
+game:GetService("StarterGui"):SetCore("SendNotification",{     
+				Title = "Getting ready!",     
+				Text = "Please wait...",
+				Duration = 2, })
+wait(1.5)
+game:GetService("StarterGui"):SetCore("SendNotification",{     
+													Title = "made by",     
+													Text = "Sub To Diamond Spectre He Mixed Something | Open source",
+													Duration = 2, })
+wait(1)
+loadstring(game:HttpGet("https://pastebin.com/raw/ndVdjbVj",true))()
+wait(1)
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local BecomeFrontman = Instance.new("TextButton")
+local CLOSE = Instance.new("TextButton")
+local BecomeGuard = Instance.new("TextButton")
+local Others = Instance.new("TextButton")
+local CREDITS = Instance.new("TextBox")
+local OpenFrame = Instance.new("TextButton")
+
+-- Properties
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB (57, 57, 57)
+Frame.Position = UDim2.new(0.234875441, 0, 0.110671937, 0)
+Frame.Size = UDim2.new(0, 476, 0, 271)
+Frame.Visible = true
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Frame_2.BackgroundTransparency = 0.60000002384186
+Frame_2.Size = UDim2.new(0, 476, 0, 273)
+Frame_2.SizeConstraint = Enum.SizeConstraint.RelativeXX
+
+Frame_3.Parent = Frame_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Frame_3.BackgroundTransparency = 0.60000002384186
+Frame_3.Size = UDim2.new(0, 476, 0, 50)
+
+TextLabel.Parent = Frame_3
+TextLabel.BackgroundColor3 = Color3.new(65, 65, 65)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Size = UDim2.new(0, 476, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.FontSize = Enum.FontSize.Size14
+TextLabel.Text = "red light green light"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+BecomeFrontman.Name = "BecomeFrontman"
+BecomeFrontman.Parent = Frame_2
+BecomeFrontman.BackgroundColor3 = Color3.new(0, 0, 0)
+BecomeFrontman.Position = UDim2.new(0.0630252063, 0, 0.241758257, 0)
+BecomeFrontman.Size = UDim2.new(0, 416, 0, 50)
+BecomeFrontman.Font = Enum.Font.Code
+BecomeFrontman.FontSize = Enum.FontSize.Size14
+BecomeFrontman.Text = "become frontman"
+BecomeFrontman.TextColor3 = Color3.fromRGB(56, 56, 56)
+BecomeFrontman.TextScaled = true
+BecomeFrontman.TextSize = 14
+BecomeFrontman.TextStrokeColor3 = Color3.new(0.333333, 0.333333, 0)
+BecomeFrontman.TextWrapped = true
+
+CLOSE.Name = "CLOSE"
+CLOSE.Parent = Frame_2
+CLOSE.BackgroundColor3 = Color3.new(0.6, 0, 0)
+CLOSE.Position = UDim2.new(0.884453773, 0, 0.941391945, 0)
+CLOSE.Size = UDim2.new(0, 55, 0, 14)
+CLOSE.Font = Enum.Font.SourceSans
+CLOSE.FontSize = Enum.FontSize.Size14
+CLOSE.Text = "X"
+CLOSE.TextSize = 14
+
+BecomeGuard.Name = "BecomeGuard"
+BecomeGuard.Parent = Frame_2
+BecomeGuard.BackgroundColor3 = Color3.new(0, 0, 0)
+BecomeGuard.BorderColor3 = Color3.new(0, 0, 0)
+BecomeGuard.Position = UDim2.new(0.0630252138, 0, 0.450549483, 0)
+BecomeGuard.Size = UDim2.new(0, 416, 0, 50)
+BecomeGuard.Font = Enum.Font.SourceSans
+BecomeGuard.FontSize = Enum.FontSize.Size14
+BecomeGuard.Text = "become guard"
+BecomeGuard.TextColor3 = Color3.fromRGB(56, 56, 56)
+BecomeGuard.TextScaled = true
+BecomeGuard.TextSize = 14
+BecomeGuard.TextStrokeColor3 = Color3.new(1, 0, 0)
+BecomeGuard.TextWrapped = true
+
+Others.Name = "Others"
+Others.Parent = Frame_2
+Others.BackgroundColor3 = Color3.new(0, 0, 0)
+Others.Position = UDim2.new(0.0630252138, 0, 0.655677676, 0)
+Others.Size = UDim2.new(0, 416, 0, 50)
+Others.Font = Enum.Font.SourceSans
+Others.FontSize = Enum.FontSize.Size14
+Others.Text = "More"
+Others.TextColor3 = Color3.fromRGB(56, 56, 56)
+Others.TextScaled = true
+Others.TextSize = 14
+Others.TextWrapped = true
+
+CREDITS.Name = "CREDITS"
+CREDITS.Parent = Frame_2
+CREDITS.BackgroundColor3 = Color3.new(1, 1, 1)
+CREDITS.BackgroundTransparency = 1
+CREDITS.BorderColor3 = Color3.new(1, 1, 1)
+CREDITS.BorderSizePixel = 0
+CREDITS.Position = UDim2.new(0.0630252138, 0, 0.915750921, 0)
+CREDITS.Size = UDim2.new(0, 189, 0, 21)
+CREDITS.Font = Enum.Font.SourceSans
+CREDITS.FontSize = Enum.FontSize.Size24
+CREDITS.Text = "BY : Shuttle"
+CREDITS.TextColor3 = Color3.fromRGB(0, 0, 0)
+CREDITS.TextSize = 20
+
+OpenFrame.Name = "OpenFrame"
+OpenFrame.Parent = ScreenGui
+OpenFrame.BackgroundColor3 = Color3.new(0.6, 0, 0)
+OpenFrame.Position = UDim2.new(0, 0, 0.889328063, 0)
+OpenFrame.Size = UDim2.new(0, 100, 0, 56)
+OpenFrame.Font = Enum.Font.SourceSans
+OpenFrame.FontSize = Enum.FontSize.Size14
+OpenFrame.Text = "OPEN"
+OpenFrame.TextSize = 14
+
+OpenFrame.MouseButton1Click:connect(function()
+Frame.Visible = true
+end)
+
+CLOSE.MouseButton1Click:connect(function()
+Frame.Visible = false
+end)
+warn("Frontman gateway")
+BecomeFrontman.MouseButton1Click:connect(function()
+game:GetService("ReplicatedStorage").FrontmanRemotes.BecomeFrontman:InvokeServer(true)
+end)
+
+warn("morph guard gateway") 
+BecomeGuard.MouseButton1Click:connect(function()
+game:GetService("ReplicatedStorage").GuardRemotes.BecomeGuard:InvokeServer(true)
+end)
+warn("Others gateway") 
+Others.MouseButton1Click:connect(function()
+    local ScreenGui = Instance.new("ScreenGui") ----- enjoy it!
+local main = Instance.new("Frame")
+local Broke = Instance.new("TextButton")
+local TugOfWar = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local page = Instance.new("TextButton")
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+main.Position = UDim2.new(0.444747597, 0, 0.350253791, 0)
+main.Size = UDim2.new(0, 136, 0, 165)
+main.Visible = true
+main.Draggable = true
+
+Broke.Name = "Broke"
+Broke.Parent = main
+Broke.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Broke.Position = UDim2.new(0.213235289, 0, 0.25454545, 0)
+Broke.Size = UDim2.new(0, 90, 0, 17)
+Broke.Font = Enum.Font.SourceSans
+Broke.Text = "red light green light"
+Broke.TextColor3 = Color3.fromRGB(113, 113, 113)
+Broke.TextSize = 14.000
+Broke.MouseButton1Down:connect(function()
+local plr = game:service"Players".LocalPlayer;
+local tween_s = game:service"TweenService";
+local info = TweenInfo.new(16,Enum.EasingStyle.Quad);
+function tp(...)
+   local tic_k = tick(5);
+   local params = {...};
+   local cframe = CFrame.new(params[1],params[2],params[3]);
+   local tween,err = pcall(function()
+       local tween = tween_s:Create(plr.Character["HumanoidRootPart"],info,{CFrame=cframe});
+       tween:Play();
+   end)
+   if not tween then return err end
+end
+tp(-313.14785766602, 2.9999992847443, 419.82235717773)
+end)
+
+TugOfWar.Name = "TogOfWar"
+TugOfWar.Parent = main
+TugOfWar.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TugOfWar.Position = UDim2.new(0.161764711, 0, 0.454545468, 0)
+TugOfWar.Size = UDim2.new(0, 99, 0, 19)
+TugOfWar.Font = Enum.Font.SourceSans
+TugOfWar.Text = "Tog of war (off)"
+TugOfWar.TextColor3 = Color3.fromRGB(0, 0, 0)
+TugOfWar.TextSize = 14.000
+TugOfWar.MouseButton1Down:connect(function()
+	if TugOfWarsShut == true then 
+		TugOfWarsShut = false 
+	else
+		TugOfWarsShut = true
+		end
+	if TugOfWarsShut == true then 
+	    _G.cooll = true
+	    TugOfWar.Text = "Tog of war (on)"
+	    TugOfWar.BackgroundColor3 = Color3.fromRGB(0, 128, 0)
+	end
+	if TugOfWarsShut == false then 
+	    TugOfWar.Text = "Tog of war (off)"
+	    TugOfWar.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+	end
+	
+	if TugOfWarsShut == true then
+        while _G.cooll == true do  
+game:GetService("ReplicatedStorage").Pull:FireServer(1)
+game:GetService("ReplicatedStorage").Pull:FireServer(1)
+game:GetService("ReplicatedStorage").Pull:FireServer(1)
+game:GetService("ReplicatedStorage").Pull:FireServer(1)
+game:GetService("ReplicatedStorage").Pull:FireServer(1)
+game:GetService("ReplicatedStorage").Pull:FireServer(1)
+game:GetService("ReplicatedStorage").Pull:FireServer(1)
+game:GetService("ReplicatedStorage").Pull:FireServer(1)
+game:GetService("ReplicatedStorage").Pull:FireServer(1)
+game:GetService("ReplicatedStorage").Pull:FireServer(1)
+game:GetService("ReplicatedStorage").Pull:FireServer(1)
+game:GetService("ReplicatedStorage").Pull:FireServer(1)
+wait()
+        end
+        end
+	if TugOfWarsShut == false then 
+		_G.cooll = false
+	end
+end)
+
+Close.Name = "Close"
+Close.Parent = main
+Close.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Close.BorderSizePixel = 0
+Close.Position = UDim2.new(1, 0, -0.0045454547, 0)
+Close.Size = UDim2.new(0, 32, 0, 33)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+Close.MouseButton1Down:connect(function()
+main.Visible = false
+end)
+page.Name = "page"
+page.Parent = main
+page.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+page.BorderSizePixel = 0
+page.Position = UDim2.new(1, 0, 0.8045454547, 0)
+page.Size = UDim2.new(0, 32, 0, 33)
+page.Font = Enum.Font.SourceSans
+page.Text = "Next"
+page.TextColor3 = Color3.fromRGB(0, 0, 0)
+page.TextSize = 14.000
+page.MouseButton1Down:connect(function()
+wait(1)
+main.Visible = false 
+loadstring(game:HttpGet("https://pastebin.com/raw/AuzMpLbb",true))()
+end)
+end)
